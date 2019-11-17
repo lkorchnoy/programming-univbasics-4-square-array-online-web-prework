@@ -1,3 +1,9 @@
-def square_array(array)
-  # your code here
+def square_array(numbers)
+  numbers = [1, 2, 3]
+  counter = 0
+  while counter < numbers.length do
+    puts numbers [counter]
+    counter^
+  end
 end
+square_array(numbers)
