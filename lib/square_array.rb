@@ -3,7 +3,7 @@ def square_array(numbers)
   counter = 0
   while counter < numbers.length do
     puts numbers [counter]
-    counter^
+    counter=numbers^
   end
 end
 square_array(numbers)
